@@ -7,9 +7,11 @@
 
 
 
-1、ubuntu系统，确保安装vim  global(gnu global) 和universal-ctags
+1、ubuntu系统，已经安装python3
 
-<code>sudo apt-get install vim global universal-ctags</code>
+安装vim  global(gnu global) 和universal-ctags pygments
+
+<code>sudo apt-get install vim global universal-ctags pygments</code>
 
 2、安装plug.vim
 
@@ -30,7 +32,11 @@ mkdir autoload
 
 回到用户目录，将本工程中的vimrc复制为用户目录下的<code>.vimrc</code>
 
-如果是mac下安装，需要将.vimrc中的/bin/bash改为/bin/zsh
+    如果是mac下安装，需要：
+      a、将.vimrc中的/bin/bash改为/bin/zsh
+      
+      b、修改<code>let $GTAGSCONF = '/usr/local/etc/gtags/gtags.conf'</code>
+      
 
 4、运行vim，在vim的命令模式中输入PlugUpdate。此时vim会自动安装各种插件。直到完成后提示“……按字母D……”
 
