@@ -25,11 +25,19 @@ mkdir autoload
 
 # 简单用法
 1、终端中打开所阅读代码的根目录，如果没有.git或者.svn，就touch一个
+
 2、在代码根目录下运行vim，然后输入,n快捷键，右边既是文件列表，随便选择一个.c或者.h，改变一下(然后还原)，保存。这个动作是为了出发tags的自动生成过程
+
 3、常用的快捷键：
 Ctrl+]    查找函数定义      (source insight里的ctrl+鼠标双击)
+
 Ctrl+o    跳回            (source insight里的alt+,)
+
 Ctrl+c s  查找函数的调用处  (source insight里的ctrl+\)  
+
 \t        全局查找符号      (source insight里的F7)
+
 F8        打开/关闭tagbar   本文件中的函数列表等
+
 其他快捷键可参考.vimrc中的注释
+
