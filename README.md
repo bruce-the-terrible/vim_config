@@ -18,10 +18,10 @@ mkdir autoload
 
 <code>cd </code> 
 
-回到用户目录，将本工程中的vimrc复制为用户目录下的<code>.vimrc</code>
-如果是mac下安装，需要将.vimrc中的/bin/bash改为/bin/zsh
-4、运行vim，在vim的命令模式中输入PlugUpdate。此时vim会自动安装各种插件。直到完成后提示“……按字母D……”
-5、退出vim，将sourceinsight.vim复制到/.vim/plugged/vim-colorschemes/colors下
+回到用户目录，将本工程中的vimrc复制为用户目录下的<code>.vimrc</code></cr>
+如果是mac下安装，需要将.vimrc中的/bin/bash改为/bin/zsh</cr>
+4、运行vim，在vim的命令模式中输入PlugUpdate。此时vim会自动安装各种插件。直到完成后提示“……按字母D……”</cr>
+5、退出vim，将sourceinsight.vim复制到/.vim/plugged/vim-colorschemes/colors下</cr>
 
 # 简单用法
 1、终端中打开所阅读代码的根目录，如果没有.git或者.svn，就touch一个
