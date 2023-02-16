@@ -1,6 +1,8 @@
 # vim_config
 # 将vim配置成接近sourceinsight的C\C++代码阅读工具
 
+(深度借鉴  韦易笑   的脚本)
+
 使用global代替cscope，uinversal-ctags代替更老版本的同门
 
 使用vim-cpp-modern增加加强配色效果。不用这个插件，会可能导致很多配色设定无效果
