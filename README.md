@@ -13,6 +13,9 @@
 
 <code>sudo apt-get install vim global universal-ctags pygments</code>
 
+mac下是安装macvim,它会顺带安装cscope，不过不碍事
+
+
 2、安装plug.vim
 
 如果原来有.vim目录，则删除整个目录。否则会导致插件系统乱成一团
