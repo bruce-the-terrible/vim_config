@@ -22,6 +22,8 @@ mkdir autoload
 
 将<url>https://github.com/junegunn/vim-plug</url>工程中的plug.vim下载后复制到autoload中
 
+同时需要在.vim下建.swp   .undo  .backup 文件夹
+
 3、安装vimrc
 
 <code>cd </code> 
