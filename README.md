@@ -35,12 +35,12 @@ mkdir autoload
 
 <code>cd </code> 
 
-回到用户目录，将本工程中的vimrc复制为用户目录下的<code>.vimrc</code>
+回到用户目录，将本工程中的vimrc复制为用户目录下的<code> .vimrc </code>
 
     如果是mac下安装，需要：
       a、将.vimrc中的/bin/bash改为/bin/zsh
       
-      b、修改<code>let $GTAGSCONF = '/usr/local/etc/gtags/gtags.conf'</code>
+      b、修改<code> let $GTAGSCONF = '/usr/local/etc/gtags.conf' </code>
       
 
 4、运行vim，在vim的命令模式中输入PlugUpdate。此时vim会自动安装各种插件。直到完成后提示“……按字母D……”
