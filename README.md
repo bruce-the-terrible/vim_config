@@ -66,3 +66,4 @@ F8        打开/关闭tagbar   本文件中的函数列表等
 
 其他快捷键可参考.vimrc中的注释
 
+# 不要相信VIM+xxx能藐视source insight的鬼话。说这样的话的人基本都是没玩会source insight的。（还有个更强大的scitools understand）
